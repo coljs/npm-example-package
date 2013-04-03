@@ -1,0 +1,22 @@
+{
+  "name": "nacho",
+  "version": "0.0.2",
+  "description": "An example for NPM",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "sample"
+  ],
+  "bin": "./bin/nacho",
+  "author": "Julian Duque",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  }
+}
